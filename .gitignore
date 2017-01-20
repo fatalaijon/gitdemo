@@ -1,0 +1,7 @@
+# ignore java compiler output
+bin/
+build/
+*.class
+# ignore tmp files
+*.tmp
+JOKES
