@@ -1,4 +1,4 @@
-## Summary of Git commands:
+## Summary of Git commands
 
 * git init - create a new repository
 * git status - compare working directory with local repository
@@ -45,4 +45,15 @@ If the project already exists on Github then do:
 When you clone a project, git remembers the "upstream" location. So you can push (upload) you
 local changes to  the project using `git push`.
 
-Jim Brucker
+### Pushing Local Changes to a Remote (Github)
+
+Once you have connected a local repository with Github using either Case 1 or Case 2, the information
+is saved in the local git configuration.  You can "upload" your changes to Github using:
+```
+cmd> git push
+```
+
+If you are working with other people on a project, then the workflow is more complicated.
+You have to make your that your local repo is up-to-date with the remote (Github) before
+pushing your work.  This ensures that one person does not overwrite the work of another person
+(which Git will not allow).
